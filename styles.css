@@ -15,10 +15,17 @@ a {
     text-decoration: none;
 }
 
-.header ul {
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    color: #E5E7EB;
+    font-size: 18px;
     display: flex;
     list-style: none;
-    gap: 16px;
+    gap: 24px;
 }
 
 .content {
@@ -36,5 +43,5 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    padding: 16px 0;
+    padding: 32px 0;
 }
