@@ -21,15 +21,19 @@ a {
 }
 
 .links {
-    color: #E5E7EB;
-    font-size: 18px;
     display: flex;
     list-style: none;
     gap: 24px;
 }
 
+.links,
+.text p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 .content {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -44,4 +48,38 @@ a {
     align-items: center;
     height: 50px;
     padding: 32px 0;
+}
+
+.intro {
+    display: flex;
+    gap: 32px;
+    padding: 125px 0;
+}
+
+.text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.text button {
+    font-size: 18px;
+    font-weight: bold;
+    width: max-content;
+    padding: 8px 32px;
+    flex: initial;
+    color: inherit;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+}
+
+img {
+    flex: initial;
 }
