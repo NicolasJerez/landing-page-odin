@@ -121,3 +121,22 @@ img {
     color: #1F2937;
     text-align: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px 0;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 120px;
+}
+
+.quote .author{
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
