@@ -140,3 +140,34 @@ img {
     font-weight: bold;
     font-size: 20px;
 }
+
+.action-call .content{
+    margin: 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    padding: 48px 128px;
+    border-radius: 8px;
+}
+
+.action-call text {
+    flex: 1;
+}
+
+.action-call button {
+    width: max-content;
+    height: max-content;
+    padding: 8px 32px;
+    flex: initial;
+    background-color: inherit;
+    border: 2px solid #E5E7EB;
+    color: inherit;
+    align-self: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.action-call h1 {
+    font-size: 24px;
+}
